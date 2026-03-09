@@ -1,0 +1,81 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE / Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Dataset outputs (very important)
+# ==============================
+data/raw/*
+data/interim/*
+data/processed/*
+
+# keep folder structure
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# ==============================
+# Reports and generated artifacts
+# ==============================
+reports/figures/*
+reports/*.png
+reports/*.pdf
+reports/*.html
+reports/*.json
+
+# keep structure
+!reports/.gitkeep
+
+# ==============================
+# Model artifacts
+# ==============================
+models/
+*.pkl
+*.joblib
+*.model
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.cache
+.cache/
